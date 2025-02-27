@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping(path = "hello")
     public String hello() {
-        return "hello to all :"+LocalDateTime.now().toString();
+        return "hello to all V2 :"+LocalDateTime.now().toString();
     }
 }
